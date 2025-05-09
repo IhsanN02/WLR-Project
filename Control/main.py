@@ -8,7 +8,7 @@ from Filters import ComplementaryFilter
 
 
 
-xml_path = "C:/Users/GPC/Desktop/Modules/Project Work/Actual Design/XML and STL/scene.xml"
+xml_path = "scene.xml"
 
 model = mj.MjModel.from_xml_path(xml_path)
 data = mj.MjData(model)
