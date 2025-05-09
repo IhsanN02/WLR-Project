@@ -42,7 +42,7 @@ controller = GaitController(dt=0.001)
 
 simulation_duration = 40.0  # seconds
 dt = model.opt.timestep
-# Run simulation
+
 
 pitch_roll = ComplementaryFilter()
 
