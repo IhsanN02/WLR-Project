@@ -52,4 +52,4 @@ class ComplementaryFilter:
                     self.roll_estimate = raw_roll
                     roll_valid = True
        
-        return -1*(self.pitch_estimate) + 0.131, (-1.0* self.roll_estimate)+0.0875 # Output flipped for convention
+        return -1*(self.pitch_estimate) + 0.131, (-1.0* self.roll_estimate)+0.0875
