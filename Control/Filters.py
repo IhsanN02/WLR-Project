@@ -27,8 +27,7 @@ class ComplementaryFilter:
 
         self.pitch_estimate = 0.0
         self.roll_estimate = 0.0
-        self.smoothed_pitch = 0.0
-        self.smoothed_roll = 0.0
+    
    
     def update(self, accel, gyro, dt, in_stance=True):
         gyro_x, gyro_y = gyro[0], gyro[1]
