@@ -167,7 +167,7 @@
                 fullinertia="0.0012 0.0012 0.000015 0 0 0"/>
                 <geom class="leg_collision"/>
                 
-                <!-- Visual -->
+             
                 <geom class="visual" mesh="leg" pos="-0.005 -0.03 -0.1" material="offwhite"/>
                 <joint class="knee_joint" name = "FR_knee_joint"/>
                 <site name="FR_wheel_site" pos="0.0 -0.04 -0.115" size="0.005" rgba="0 0 0 0"/>
@@ -176,7 +176,7 @@
                         fullinertia="0.00015 0.00015 0.00025 0 0 0"/>
                      <geom class="wheel_collision" name="FR_wheel_collision"/>
                     <geom class="wheel_cup"  pos = "0.0 0.0 0.0"/>
-                    <!-- Visual -->
+          
                     <geom class="visual" mesh="wheel" pos = "-0.02 -0.0513 -0.05" material = "dark"/>
                      <joint class="wheel_joint" name = "FR_wheel_joint"/>
                     
@@ -206,7 +206,7 @@
              <inertial mass="0.5" pos="0 0 0.0265"
                 fullinertia="0.0012 0.0012 0.000015 0 0 0"/>
                 <geom class="leg_collision" />
-                <!-- Visual -->
+              
                 <geom class="visual" mesh="leg" pos="0.005 0.03 -0.1" quat="0 0 0 1" material="offwhite"/>
                 <joint class="knee_joint" name = "BL_knee_joint" />
                 <site name="BL_wheel_site" pos="0.0 -0.04 -0.115" size="0.005" rgba="0 0 0 0"/>
@@ -216,7 +216,7 @@
                     fullinertia="0.00015 0.00015 0.00025 0 0 0"/> 
                      <geom class="wheel_collision" name="BL_wheel_collision"/>
                     <geom class="wheel_cup"  pos = "0.0 0.0 0.0"/>
-                    <!-- Visual -->
+                 
                     <geom class="visual" mesh="wheel" pos = "-0.01 -0.0487 -0.05" material = "dark"/>
                      <joint class="wheel_joint" name = "BL_wheel_joint"/>
 
