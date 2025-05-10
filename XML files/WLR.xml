@@ -75,8 +75,6 @@
 
  <asset>
         <material name="dark" specular="0" shininess="0.25" rgba="0.2 0.2 0.2 1"/>
-        <texture type="2d" name="chassis" file="a1.png"/>
-        <material name="carbonfibre" texture="chassis" specular="0" shininess="0.25"/>
 
         <material name="offwhite" specular="0" shininess="0.25" rgba="0.45 0.45 0.45 1"/>
         
